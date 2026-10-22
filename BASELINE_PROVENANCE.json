@@ -1,0 +1,10 @@
+{
+  "baseline": "ChangeProof-RC2-1",
+  "commit": "607dfa9c80274683282481fe82da5ca00a71f8f7",
+  "source_zip_sha256": "3d2d396a19cffde61b3b3d9427212a4bf2c9cda3ba47273f4b54cd6b9383fa67",
+  "unchanged_video_sha256": "546c17d7214f171ec0c34cebe652a76223c6c80222a5ec764747e96ef176f819",
+  "runtime_changes": 0,
+  "new_provider_calls": 0,
+  "new_files_purpose": "publication configuration, evidence navigation, release-only validation and drafts",
+  "not_published": true
+}

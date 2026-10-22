@@ -1,0 +1,55 @@
+{
+  "name": "Offline release validation",
+  "on": {
+    "workflow_dispatch": null,
+    "workflow_call": null
+  },
+  "permissions": {
+    "contents": "read"
+  },
+  "jobs": {
+    "offline": {
+      "if": "github.repository == 'Melvin0hd/changeproof' && github.event.repository.private == false && github.ref == 'refs/heads/main'",
+      "runs-on": "ubuntu-24.04",
+      "timeout-minutes": 10,
+      "steps": [
+        {
+          "name": "Checkout (v6 pinned)",
+          "uses": "actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803",
+          "with": {
+            "persist-credentials": false
+          }
+        },
+        {
+          "name": "Python (v6 pinned)",
+          "uses": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
+          "with": {
+            "python-version": "3.12.14"
+          }
+        },
+        {
+          "name": "Node (v6 pinned)",
+          "uses": "actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+          "with": {
+            "node-version": "24.19.0"
+          }
+        },
+        {
+          "name": "Revalidate evidence and run tests in a clean copy",
+          "run": "python -B tools/validate_release.py --output _validation"
+        },
+        {
+          "name": "Preserve logs even on correctness failure",
+          "if": "always()",
+          "uses": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+          "with": {
+            "name": "offline-release-validation-${{ github.run_id }}",
+            "path": "_validation/",
+            "if-no-files-found": "error",
+            "retention-days": 7
+          }
+        }
+      ]
+    }
+  }
+}

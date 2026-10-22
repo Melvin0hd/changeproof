@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "kind": "offline_revalidation_of_authentic_record_not_new_inference",
+  "review_id": "8e4d40ad9e2e30a0",
+  "decision": "ESCALATE",
+  "schema_literal_support": "PASS",
+  "full_applicability": "UNRESOLVED",
+  "aggregate_provenance_checked": false,
+  "usage": {
+    "completion_tokens": 204,
+    "prompt_tokens": 1816,
+    "total_tokens": 2020,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1816
+  },
+  "new_provider_calls": 0
+}

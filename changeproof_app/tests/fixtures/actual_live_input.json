@@ -1,0 +1,117 @@
+{
+  "fixture_kind": "authentic_sanitized_live_capture_not_gold",
+  "review_id": "d7853838b7af12dc",
+  "evidence": {
+    "source_id": "retrieval_1",
+    "source_url": "https://docs.github.com/en/billing/reference/actions-minute-multipliers#x64-powered-larger-runners",
+    "publisher": "docs.github.com",
+    "publication_date": null,
+    "raw_text": "| Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux 2-core | `linux_2_core_arm` | $0.005 |\n| Linux 4-core | `linux_4_core_arm` | $0.008 |\n| Linux 8-core | `linux_8_core_arm` | $0.014 |\n| Linux 16-core | `linux_16_core_arm` | $0.026 |\n| Linux 32-core | `linux_32_core_arm` | $0.050 |\n| Linux 64-core | `linux_64_core_arm` | $0.098 |\n| Windows 2-core | `windows_2_core_arm` | $0.008 |\n| Windows 4-core | `windows_4_core_arm` | $0.014 | [...] | Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux 1-core (x64) | `actions_linux_slim` | $0.002 |\n| Linux 2-core (x64) | `actions_linux` | $0.006 |\n| Linux 2-core (arm64) | `actions_linux_arm` | $0.005 |\n| Windows 2-core (x64) | `actions_windows` | $0.010 |\n| Windows 2-core (arm64) | `actions_windows_arm` | $0.010 |\n| macOS 3-core or 4-core (M1 or Intel) | `actions_macos` | $0.062 |\n\n## x64-powered larger runners [...] | Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux Advanced 2-core | `linux_2_core_advanced` | $0.006 |\n| Linux 4-core | `linux_4_core` | $0.012 |\n| Linux 8-core | `linux_8_core` | $0.022 |\n| Linux 16-core | `linux_16_core` | $0.042 |\n| Linux 32-core | `linux_32_core` | $0.082 |\n| Linux 64-core | `linux_64_core` | $0.162 |\n| Linux 96-core | `linux_96_core` | $0.252 |\n| Windows 4-core | `windows_4_core` | $0.022 |\n| Windows 8-core | `windows_8_core` | $0.042 |",
+    "query": "What is the current USD per-minute price and effective/publication date for GitHub Actions Linux 2-core x64 hosted runners after included minutes?",
+    "retrieved_at": "2026-10-17T14:22:55.082129+00:00",
+    "source_role": "declared_vendor_domain_matched_excerpt_not_independently_verified",
+    "selection_note": "First ranked result matching the operator-declared official domain; other results retained."
+  },
+  "sources": [
+    {
+      "source_id": "retrieval_1",
+      "source_url": "https://docs.github.com/en/billing/reference/actions-minute-multipliers#x64-powered-larger-runners",
+      "publisher": "docs.github.com",
+      "publication_date": null,
+      "raw_text": "| Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux 2-core | `linux_2_core_arm` | $0.005 |\n| Linux 4-core | `linux_4_core_arm` | $0.008 |\n| Linux 8-core | `linux_8_core_arm` | $0.014 |\n| Linux 16-core | `linux_16_core_arm` | $0.026 |\n| Linux 32-core | `linux_32_core_arm` | $0.050 |\n| Linux 64-core | `linux_64_core_arm` | $0.098 |\n| Windows 2-core | `windows_2_core_arm` | $0.008 |\n| Windows 4-core | `windows_4_core_arm` | $0.014 | [...] | Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux 1-core (x64) | `actions_linux_slim` | $0.002 |\n| Linux 2-core (x64) | `actions_linux` | $0.006 |\n| Linux 2-core (arm64) | `actions_linux_arm` | $0.005 |\n| Windows 2-core (x64) | `actions_windows` | $0.010 |\n| Windows 2-core (arm64) | `actions_windows_arm` | $0.010 |\n| macOS 3-core or 4-core (M1 or Intel) | `actions_macos` | $0.062 |\n\n## x64-powered larger runners [...] | Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux Advanced 2-core | `linux_2_core_advanced` | $0.006 |\n| Linux 4-core | `linux_4_core` | $0.012 |\n| Linux 8-core | `linux_8_core` | $0.022 |\n| Linux 16-core | `linux_16_core` | $0.042 |\n| Linux 32-core | `linux_32_core` | $0.082 |\n| Linux 64-core | `linux_64_core` | $0.162 |\n| Linux 96-core | `linux_96_core` | $0.252 |\n| Windows 4-core | `windows_4_core` | $0.022 |\n| Windows 8-core | `windows_8_core` | $0.042 |",
+      "query": "What is the current USD per-minute price and effective/publication date for GitHub Actions Linux 2-core x64 hosted runners after included minutes?",
+      "retrieved_at": "2026-10-17T14:22:55.082129+00:00",
+      "source_role": "search_excerpt_unverified"
+    },
+    {
+      "source_id": "retrieval_2",
+      "source_url": "https://docs.github.com/en/billing/reference/actions-runner-pricing#x64-powered-larger-runners",
+      "publisher": "docs.github.com",
+      "publication_date": null,
+      "raw_text": "| Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux 2-core | `linux_2_core_arm` | $0.005 |\n| Linux 4-core | `linux_4_core_arm` | $0.008 |\n| Linux 8-core | `linux_8_core_arm` | $0.014 |\n| Linux 16-core | `linux_16_core_arm` | $0.026 |\n| Linux 32-core | `linux_32_core_arm` | $0.050 |\n| Linux 64-core | `linux_64_core_arm` | $0.098 |\n| Windows 2-core | `windows_2_core_arm` | $0.008 |\n| Windows 4-core | `windows_4_core_arm` | $0.014 | [...] | Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux 1-core (x64) | `actions_linux_slim` | $0.002 |\n| Linux 2-core (x64) | `actions_linux` | $0.006 |\n| Linux 2-core (arm64) | `actions_linux_arm` | $0.005 |\n| Windows 2-core (x64) | `actions_windows` | $0.010 |\n| Windows 2-core (arm64) | `actions_windows_arm` | $0.010 |\n| macOS 3-core or 4-core (M1 or Intel) | `actions_macos` | $0.062 |\n\n## x64-powered larger runners [...] | Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux Advanced 2-core | `linux_2_core_advanced` | $0.006 |\n| Linux 4-core | `linux_4_core` | $0.012 |\n| Linux 8-core | `linux_8_core` | $0.022 |\n| Linux 16-core | `linux_16_core` | $0.042 |\n| Linux 32-core | `linux_32_core` | $0.082 |\n| Linux 64-core | `linux_64_core` | $0.162 |\n| Linux 96-core | `linux_96_core` | $0.252 |\n| Windows 4-core | `windows_4_core` | $0.022 |\n| Windows 8-core | `windows_8_core` | $0.042 |",
+      "query": "What is the current USD per-minute price and effective/publication date for GitHub Actions Linux 2-core x64 hosted runners after included minutes?",
+      "retrieved_at": "2026-10-17T14:22:55.082129+00:00",
+      "source_role": "search_excerpt_unverified"
+    },
+    {
+      "source_id": "retrieval_3",
+      "source_url": "https://docs.github.com/en/billing/reference/actions-runner-pricing#standard-github-hosted-runners",
+      "publisher": "docs.github.com",
+      "publication_date": null,
+      "raw_text": "| Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux 2-core | `linux_2_core_arm` | $0.005 |\n| Linux 4-core | `linux_4_core_arm` | $0.008 |\n| Linux 8-core | `linux_8_core_arm` | $0.014 |\n| Linux 16-core | `linux_16_core_arm` | $0.026 |\n| Linux 32-core | `linux_32_core_arm` | $0.050 |\n| Linux 64-core | `linux_64_core_arm` | $0.098 |\n| Windows 2-core | `windows_2_core_arm` | $0.008 |\n| Windows 4-core | `windows_4_core_arm` | $0.014 | [...] | Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux 1-core (x64) | `actions_linux_slim` | $0.002 |\n| Linux 2-core (x64) | `actions_linux` | $0.006 |\n| Linux 2-core (arm64) | `actions_linux_arm` | $0.005 |\n| Windows 2-core (x64) | `actions_windows` | $0.010 |\n| Windows 2-core (arm64) | `actions_windows_arm` | $0.010 |\n| macOS 3-core or 4-core (M1 or Intel) | `actions_macos` | $0.062 |\n\n## x64-powered larger runners [...] | Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux Advanced 2-core | `linux_2_core_advanced` | $0.006 |\n| Linux 4-core | `linux_4_core` | $0.012 |\n| Linux 8-core | `linux_8_core` | $0.022 |\n| Linux 16-core | `linux_16_core` | $0.042 |\n| Linux 32-core | `linux_32_core` | $0.082 |\n| Linux 64-core | `linux_64_core` | $0.162 |\n| Linux 96-core | `linux_96_core` | $0.252 |\n| Windows 4-core | `windows_4_core` | $0.022 |\n| Windows 8-core | `windows_8_core` | $0.042 |",
+      "query": "What is the current USD per-minute price and effective/publication date for GitHub Actions Linux 2-core x64 hosted runners after included minutes?",
+      "retrieved_at": "2026-10-17T14:22:55.082129+00:00",
+      "source_role": "search_excerpt_unverified"
+    }
+  ],
+  "tavily_response": {
+    "query": "What is the current USD per-minute price and effective/publication date for GitHub Actions Linux 2-core x64 hosted runners after included minutes?",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://docs.github.com/en/billing/reference/actions-minute-multipliers#x64-powered-larger-runners",
+        "title": "Actions runner pricing - GitHub Docs",
+        "content": "| Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux 2-core | `linux_2_core_arm` | $0.005 |\n| Linux 4-core | `linux_4_core_arm` | $0.008 |\n| Linux 8-core | `linux_8_core_arm` | $0.014 |\n| Linux 16-core | `linux_16_core_arm` | $0.026 |\n| Linux 32-core | `linux_32_core_arm` | $0.050 |\n| Linux 64-core | `linux_64_core_arm` | $0.098 |\n| Windows 2-core | `windows_2_core_arm` | $0.008 |\n| Windows 4-core | `windows_4_core_arm` | $0.014 | [...] | Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux 1-core (x64) | `actions_linux_slim` | $0.002 |\n| Linux 2-core (x64) | `actions_linux` | $0.006 |\n| Linux 2-core (arm64) | `actions_linux_arm` | $0.005 |\n| Windows 2-core (x64) | `actions_windows` | $0.010 |\n| Windows 2-core (arm64) | `actions_windows_arm` | $0.010 |\n| macOS 3-core or 4-core (M1 or Intel) | `actions_macos` | $0.062 |\n\n## x64-powered larger runners [...] | Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux Advanced 2-core | `linux_2_core_advanced` | $0.006 |\n| Linux 4-core | `linux_4_core` | $0.012 |\n| Linux 8-core | `linux_8_core` | $0.022 |\n| Linux 16-core | `linux_16_core` | $0.042 |\n| Linux 32-core | `linux_32_core` | $0.082 |\n| Linux 64-core | `linux_64_core` | $0.162 |\n| Linux 96-core | `linux_96_core` | $0.252 |\n| Windows 4-core | `windows_4_core` | $0.022 |\n| Windows 8-core | `windows_8_core` | $0.042 |",
+        "score": 0.79215926,
+        "raw_content": null,
+        "id": "d91666-00"
+      },
+      {
+        "url": "https://docs.github.com/en/billing/reference/actions-runner-pricing#x64-powered-larger-runners",
+        "title": "Actions runner pricing - GitHub Docs",
+        "content": "| Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux 2-core | `linux_2_core_arm` | $0.005 |\n| Linux 4-core | `linux_4_core_arm` | $0.008 |\n| Linux 8-core | `linux_8_core_arm` | $0.014 |\n| Linux 16-core | `linux_16_core_arm` | $0.026 |\n| Linux 32-core | `linux_32_core_arm` | $0.050 |\n| Linux 64-core | `linux_64_core_arm` | $0.098 |\n| Windows 2-core | `windows_2_core_arm` | $0.008 |\n| Windows 4-core | `windows_4_core_arm` | $0.014 | [...] | Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux 1-core (x64) | `actions_linux_slim` | $0.002 |\n| Linux 2-core (x64) | `actions_linux` | $0.006 |\n| Linux 2-core (arm64) | `actions_linux_arm` | $0.005 |\n| Windows 2-core (x64) | `actions_windows` | $0.010 |\n| Windows 2-core (arm64) | `actions_windows_arm` | $0.010 |\n| macOS 3-core or 4-core (M1 or Intel) | `actions_macos` | $0.062 |\n\n## x64-powered larger runners [...] | Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux Advanced 2-core | `linux_2_core_advanced` | $0.006 |\n| Linux 4-core | `linux_4_core` | $0.012 |\n| Linux 8-core | `linux_8_core` | $0.022 |\n| Linux 16-core | `linux_16_core` | $0.042 |\n| Linux 32-core | `linux_32_core` | $0.082 |\n| Linux 64-core | `linux_64_core` | $0.162 |\n| Linux 96-core | `linux_96_core` | $0.252 |\n| Windows 4-core | `windows_4_core` | $0.022 |\n| Windows 8-core | `windows_8_core` | $0.042 |",
+        "score": 0.79215926,
+        "raw_content": null,
+        "id": "031bdd-01"
+      },
+      {
+        "url": "https://docs.github.com/en/billing/reference/actions-runner-pricing#standard-github-hosted-runners",
+        "title": "Actions runner pricing - GitHub Docs",
+        "content": "| Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux 2-core | `linux_2_core_arm` | $0.005 |\n| Linux 4-core | `linux_4_core_arm` | $0.008 |\n| Linux 8-core | `linux_8_core_arm` | $0.014 |\n| Linux 16-core | `linux_16_core_arm` | $0.026 |\n| Linux 32-core | `linux_32_core_arm` | $0.050 |\n| Linux 64-core | `linux_64_core_arm` | $0.098 |\n| Windows 2-core | `windows_2_core_arm` | $0.008 |\n| Windows 4-core | `windows_4_core_arm` | $0.014 | [...] | Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux 1-core (x64) | `actions_linux_slim` | $0.002 |\n| Linux 2-core (x64) | `actions_linux` | $0.006 |\n| Linux 2-core (arm64) | `actions_linux_arm` | $0.005 |\n| Windows 2-core (x64) | `actions_windows` | $0.010 |\n| Windows 2-core (arm64) | `actions_windows_arm` | $0.010 |\n| macOS 3-core or 4-core (M1 or Intel) | `actions_macos` | $0.062 |\n\n## x64-powered larger runners [...] | Operating system | Billing SKU | Per-minute rate (USD) |\n --- \n| Linux Advanced 2-core | `linux_2_core_advanced` | $0.006 |\n| Linux 4-core | `linux_4_core` | $0.012 |\n| Linux 8-core | `linux_8_core` | $0.022 |\n| Linux 16-core | `linux_16_core` | $0.042 |\n| Linux 32-core | `linux_32_core` | $0.082 |\n| Linux 64-core | `linux_64_core` | $0.162 |\n| Linux 96-core | `linux_96_core` | $0.252 |\n| Windows 4-core | `windows_4_core` | $0.022 |\n| Windows 8-core | `windows_8_core` | $0.042 |",
+        "score": 0.79215926,
+        "raw_content": null,
+        "id": "0c1a5d-02"
+      }
+    ],
+    "response_time": 3.6,
+    "request_id": "f14227fd-1197-4c02-a1d2-9fc687bfc182"
+  },
+  "nebius_response": {
+    "http_status": 200,
+    "model": "nvidia/Nemotron-3_5-Lightning",
+    "usage": {
+      "completion_tokens": 1024,
+      "prompt_tokens": 1841,
+      "total_tokens": 2865,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": null,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1841
+    },
+    "content": "{\"claims\": [{\"claim_id\": \"c1\", \"source_id\": \"retrieval_1\", \"source_url\": \"https://docs.github.com/en/billing/reference/actions-minute-multipliers#x64-powered-larger-runners\", \"source_date\": null, \"publisher\": \"docs.github.com\", \"claim_type\": \"pricing_rate\", \"normalized_proposition\": \"fee_rate\", \"normalized_value\": 0.006, \"unit\": \"usd_per_minute\", \"effective_date\": null, \"criterion_candidates\": [\"C01\"], \"evidence_span\": \"$0.006\", \"ambiguity_flags\": [], \"review_required\": false, \"extraction_confidence\": \"high\"}, {\"claim_id\": \"c2\", \"source_id\": \"retrieval_1\", \"source_url\": \"https://docs.github.com/en/billing/reference/actions-minute-multipliers#x64-powered-larger-runners\", \"source_date\": null, \"publisher\": \"docs.github.com\", \"claim_type\": \"pricing_rate\", \"normalized_proposition\": \"fee_rate\", \"normalized_value\": 0.005, \"unit\": \"usd_per_minute\", \"effective_date\": null, \"criterion_candidates\": [\"C01\"], \"evidence_span\": \"$0.005\", \"ambiguity_flags\": [], \"review_required\": true, \"extraction_confidence\": \"medium\"}, {\"claim_id\": \"c3\", \"source_id\": \"retrieval_1\", \"source_url\": \"https://docs.github.com/en/billing/reference/actions-minute-multipliers#x64-powered-larger-runners\", \"source_date\": null, \"publisher\": \"docs.github.com\", \"claim_type\": \"pricing_rate\", \"normalized_proposition\": \"fee_rate\", \"normalized_value\": 0.008, \"unit\": \"usd_per_minute\", \"effective_date\": null, \"criterion_candidates\": [\"C01\"], \"evidence_span\": \"$0.008\", \"ambiguity_flags\": [], \"review_required\": true, \"extraction_confidence\": \"medium\"}, {\"claim_id\": \"c4\", \"source_id\": \"retrieval_1\", \"source_url\": \"https://docs.github.com/en/billing/reference/actions-minute-multipliers#x64-powered-larger-runners\", \"source_date\": null, \"publisher\": \"docs.github.com\", \"claim_type\": \"pricing_rate\", \"normalized_proposition\": \"fee_rate\", \"normalized_value\": 0.014, \"unit\": \"usd_per_minute\", \"effective_date\": null, \"criterion_candidates\": [\"C01\"], \"evidence_span\": \"$0.014\", \"ambiguity_flags\": [], \"review_required\": true, \"extraction_confidence\": \"medium\"}, {\"claim_id\": \"c5\", \"source_id\": \"retrieval_1\", \"source_url\": \"https://docs.github.com/en/billing/reference/actions-minute-multipliers#x64-powered-larger-runners\", \"source_date\": null, \"publisher\": \"docs.github.com\", \"claim_type\": \"pricing_rate\", \"normalized_proposition\": \"fee_rate\", \"normalized_value\": 0.026, \"unit\": \"usd_per_minute\", \"effective_date\": null, \"criterion_candidates\": [\"C01\"], \"evidence_span\": \"$0.026\", \"ambiguity_flags\": [], \"review_required\": true, \"extraction_confidence\": \"medium\"}, {\"claim_id\": \"c6\", \"source_id\": \"retrieval_1\", \"source_url\": \"https://docs.github.com/en/billing/reference/actions-minute-multipliers#x64-powered-larger-runners\", \"source_date\": null, \"publisher\": \"docs.github.com\", \"claim_type\": \"pricing_rate\", \"normalized_proposition\": \"fee_rate\", \"normalized_value\": 0.05, \"unit\": \"usd_per_minute\", \"effective_date\": null, \"criterion_candidates\": [\"C01\"], \"evidence_span\": \"$0.050\", \"ambiguity_flags\": [], \"review_required\": true, \"extraction_confidence\": \"medium\"}, {\"claim_id\": \"c7\", \"source_id\": \"retrieval_1\", \"source_url\": \"https://docs.github.com/en/billing/reference/actions-minute-multipliers#x64-powered-larger-runners\", \"source_date\": null, \"publisher\": \"docs.github.com\", \"claim_type\": \"pricing_rate\", \"normalized_proposition\":",
+    "finish_reason": "length",
+    "reasoning_tokens": 0,
+    "retry_performed": false,
+    "status": "FAILED",
+    "error": "generation_not_completed"
+  },
+  "baseline": {
+    "vendor": "GitHub Actions Linux 2-core x64",
+    "original_decision": "Continue using the named runner for private-repository CI",
+    "assumptions": "Hypothetical, not a historical customer decision: 100000 billable minutes monthly after included allowance, USD pay-as-you-go, no discounts or special contract; compute only, excluding storage and tax.",
+    "research_question": "What is the current USD per-minute price and effective/publication date for GitHub Actions Linux 2-core x64 hosted runners after included minutes?",
+    "budget_threshold_usd": 700,
+    "monthly_minutes": 100000,
+    "rate": 0.005,
+    "units": "minutes",
+    "official_domain": "docs.github.com",
+    "baseline_kind": "operator_declared_not_independently_verified"
+  }
+}

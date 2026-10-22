@@ -1,0 +1,99 @@
+{
+  "name": "Approved static judge demo",
+  "on": {
+    "workflow_dispatch": {
+      "inputs": {
+        "approval": {
+          "description": "Type APPROVE_CHANGEPROOF_PUBLIC_DEMO only after owner approval",
+          "required": true,
+          "type": "string"
+        }
+      }
+    }
+  },
+  "permissions": {
+    "contents": "read"
+  },
+  "concurrency": {
+    "group": "changeproof-pages",
+    "cancel-in-progress": false
+  },
+  "jobs": {
+    "guard": {
+      "if": "github.repository == 'Melvin0hd/changeproof' && github.event.repository.private == false && github.ref == 'refs/heads/main'",
+      "runs-on": "ubuntu-24.04",
+      "timeout-minutes": 1,
+      "steps": [
+        {
+          "name": "Require exact publication confirmation",
+          "env": {
+            "APPROVAL": "${{ inputs.approval }}"
+          },
+          "run": "test \"$APPROVAL\" = 'APPROVE_CHANGEPROOF_PUBLIC_DEMO'"
+        }
+      ]
+    },
+    "verify": {
+      "needs": "guard",
+      "uses": "./.github/workflows/validate.yml",
+      "permissions": {
+        "contents": "read"
+      }
+    },
+    "build": {
+      "needs": "verify",
+      "runs-on": "ubuntu-24.04",
+      "timeout-minutes": 5,
+      "steps": [
+        {
+          "name": "Checkout (v6 pinned)",
+          "uses": "actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803",
+          "with": {
+            "persist-credentials": false
+          }
+        },
+        {
+          "name": "Python (v6 pinned)",
+          "uses": "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
+          "with": {
+            "python-version": "3.12.14"
+          }
+        },
+        {
+          "name": "Package only the pinned static demo, never the backend",
+          "run": "python -B tools/package_static.py --output _site"
+        },
+        {
+          "uses": "actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b"
+        },
+        {
+          "uses": "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+          "with": {
+            "path": "_site"
+          }
+        }
+      ]
+    },
+    "deploy": {
+      "needs": "build",
+      "runs-on": "ubuntu-24.04",
+      "timeout-minutes": 5,
+      "permissions": {
+        "contents": "read",
+        "pages": "write",
+        "id-token": "write"
+      },
+      "environment": {
+        "name": "github-pages",
+        "url": "${{ steps.deployment.outputs.page_url }}"
+      },
+      "steps": [
+        {
+          "name": "Publish recorded/synthetic static demo only",
+          "id": "deployment",
+          "uses": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e"
+        }
+      ]
+    }
+  }
+}

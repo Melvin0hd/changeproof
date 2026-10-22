@@ -1,0 +1,14 @@
+{
+  "checked_on": "2026-10-22",
+  "authentication": "GitHub connector authenticated",
+  "login": "Melvin0hd",
+  "target": "Melvin0hd/changeproof",
+  "authenticated_get_repository_http": 404,
+  "interpretation": "Not found or not accessible to this authentication. This does not reserve the name or prove creation permission.",
+  "cli_on_path": false,
+  "repository_creation_permission": "Not proven without a separately authorized write",
+  "created": false,
+  "pushed": false,
+  "hosted": false,
+  "ci_executed": false
+}
